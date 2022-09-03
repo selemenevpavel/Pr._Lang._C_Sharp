@@ -79,8 +79,8 @@
 // Задача 38: Задайте массив вещественных чисел. 
 // Найдите разницу между максимальным и минимальным элементов массива.
 
-// int[] CreateRandomArray(int size, int min, int max){
-//     int[] array = new int[size];
+// double[] CreateRandomArray(int size, int min, int max){
+//     double[] array = new double[size];
 //     for (int i = 0; i < size; i++){
 //         array[i] = new Random().Next(min, max + 1);
 //     }
@@ -88,7 +88,7 @@
 // }
 // // Задали функцию, которая возвращает массив длины size и наполнен случайными числами от min до max.
 
-// void ShowArray(int[] array){
+// void ShowArray(double[] array){
 //     for (int i = 0; i < array.Length; i++){
 //         Console.Write($"{array[i]} ");
 //     }
@@ -96,8 +96,8 @@
 // }
 // // Задали функцию, которая показывает искомый массив.
 
-// int MaxEl(int[] array){
-//     int count = array[0];
+// double MaxEl(double[] array){
+//     double count = array[0];
 //     for(int i=0; i < array.Length; i++){
 //         if (count < array[i])
 //         count = array[i];
@@ -105,8 +105,8 @@
 //     return count;
 // }
 
-// int MinEl(int[] array){
-//     int count = array[0];
+// double MinEl(double[] array){
+//     double count = array[0];
 //     for(int i=0; i < array.Length; i++){
 //         if (count > array[i])
 //         count = array[i];
@@ -121,13 +121,15 @@
 // int min = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine("Input max: ");
 // int max = Convert.ToInt32(Console.ReadLine());
-// int[] array = CreateRandomArray(size, min, max);
-// ShowArray(array);
-// Console.WriteLine($"Max element is {MaxEl(array)}");
-// Console.WriteLine($"Min element is {MinEl(array)}");
-// int arraymax = MaxEl(array);
-// int arraymin = MinEl(array);
-// int res = arraymax - arraymin;
-// Console.WriteLine($"Difference is {res}");
 
+// double[] array = CreateRandomArray(size, min, max);
+// ShowArray(array);
+
+// Console.WriteLine($"Min element is {MinEl(array)}");
+// double arraymin = MinEl(array);
+// Console.WriteLine($"Max element is {MaxEl(array)}");
+// double arraymax = MaxEl(array);
+
+// double res = arraymax - arraymin;
+// Console.WriteLine($"Difference is {res}");
 
