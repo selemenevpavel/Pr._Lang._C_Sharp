@@ -26,7 +26,6 @@
 // }
 // Задали функцию, которая возвращает счетчик с количеством четных чисел
 
-
 // Console.WriteLine("Input size: ");
 // int size = Convert.ToInt32(Console.ReadLine());
 
@@ -35,6 +34,8 @@
 // Console.WriteLine();
 // int posCount = CountPosEl(array);
 // Console.WriteLine($"The number of even numbers is {posCount}");
+
+
 
 // Задача 36: Задайте одномерный массив, заполненный случайными числами. 
 // Найдите сумму элементов, стоящих на нечётных позициях.
@@ -75,6 +76,9 @@
 // Console.WriteLine();
 // int countSum = CountEl(array);
 // Console.WriteLine($"The sum of the elements is {countSum}");
+
+
+
 
 // Задача 38: Задайте массив вещественных чисел. 
 // Найдите разницу между максимальным и минимальным элементов массива.
