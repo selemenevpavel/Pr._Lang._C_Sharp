@@ -97,10 +97,11 @@ void Show2dArray( int [,] array){
 }
 
 int[,] Quadrat(int [,] array){
-    int [,] array = new int[rows, cols];
-    for (int i = 0; i < array.GetLength(0); i+2){
-        for (int j = 0; j < array.GetLength(1); j+2){
+    for (int i = 0; i < array.GetLength(0); i++){
+        for (int j = 0; j < array.GetLength(1); j++){
+            if (i%2==0 && j%2==0){
                 array[i,j] *= array[i,j];
+            }
         }
     }    
     return array;
